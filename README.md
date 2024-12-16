@@ -1,7 +1,15 @@
 # skin_diease_workflow
 
 本工作流主要对来自医院的29类皮肤病诊断，通过受试者皮肤病临床图片诊断患者所患皮肤病类别。模型读取图像进行推理给出诊断结果和所属皮肤病概率。 训练模型在医院29类临床皮肤病数据数据集的1024张数据进行测试，整体ACC达到了89%。
-1、开发环境：
-硬件开发环境： 处理器：Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz 内存：251GB 硬盘：15.7TB HDD 显卡：NVIDIA GeForce GTX 2080 Ti 软件开发环境： Python：3.9 Pytorch：2.1
-2、使用流程：
-1.在执行此程序之前，您需要准备数据，在test目录下有示例的数据文件；2.在Release中，存有模型权重文件，在运行程序前需下载"best_finetuned_model.pth"文件，并将其与"test.py"放置于同一文件夹下；3.运行“test.py”，将会输出测试数据的预测疾病概率以及整体准确率。
+
+1、开发环境：  
+硬件开发环境：   
+处理器：Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz   
+内存：251GB   
+硬盘：15.7TB HDD   
+显卡：NVIDIA GeForce GTX 2080 Ti   
+软件开发环境： Python：3.9 Pytorch：2.1  
+2、使用流程：  
+1.在执行此程序之前，您需要准备数据，在test目录下有示例的数据文件；  
+2.在Release中，存有模型权重文件，在运行程序前需下载"best_finetuned_model.pth"文件，并将其与"test.py"放置于同一文件夹下；  
+3.运行“test.py”，将会输出测试数据的预测疾病概率以及整体准确率。  
