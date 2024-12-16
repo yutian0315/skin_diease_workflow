@@ -11,5 +11,5 @@
 软件开发环境： Python：3.9 Pytorch：2.1  
 2、使用流程：  
 1.在执行此程序之前，您需要准备数据，在test目录下有示例的数据文件；  
-2.在Release中，存有模型权重文件，在运行程序前需下载"best_finetuned_model.pth"文件，并将其与"test.py"放置于同一文件夹下；  
+2.在"Releases"中，存有模型权重文件，在运行程序前需下载"best_finetuned_model.pth"文件，并将其与"test.py"放置于同一文件夹下；  
 3.运行“test.py”，将会输出测试数据的预测疾病概率以及整体准确率。  
